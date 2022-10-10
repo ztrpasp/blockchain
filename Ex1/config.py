@@ -7,7 +7,7 @@ SelectParams('testnet')
 
 # TODO: Fill this in with your private key.
 my_private_key = CBitcoinSecret(
-    'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+    'cQdaUpxdPJodjP6z5C3iJjx35bxqv4LqexAbyv1DYtfPK48f6VeV')
 my_public_key = my_private_key.pub
 my_address = P2PKHBitcoinAddress.from_pubkey(my_public_key)
 
